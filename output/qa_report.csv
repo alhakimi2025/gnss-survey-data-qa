@@ -1,0 +1,11 @@
+Row_Number,Point_ID,Issue_Type,Details
+7,TP03,Duplicate Point ID,Point_ID TP03 appears more than once.
+8,TP03,Duplicate Point ID,Point_ID TP03 appears more than once.
+9,TP04,Missing Required Value,Easting is missing.
+10,TP05,Missing Required Value,Elevation is missing.
+11,TP06,Missing Required Value,Point_Code is missing.
+12,TP07,Elevation Outside Expected Range,Elevation 9999.0 is outside 1000.0 to 1300.0.
+13,TP08,Horizontal Accuracy Exceeds Threshold,Reported horizontal accuracy is 1.25 m; maximum allowed is 0.1 m.
+13,TP08,Vertical Accuracy Exceeds Threshold,Reported vertical accuracy is 2.5 m; maximum allowed is 0.2 m.
+14,TP09,Easting Outside Expected Range,Easting 672800.0 is outside 472000.0 to 473500.0.
+14,TP09,Northing Outside Expected Range,Northing 1912700.0 is outside 1712000.0 to 1713500.0.

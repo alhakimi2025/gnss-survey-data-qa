@@ -1,0 +1,21 @@
+GNSS Survey Data QA Summary
+===========================
+Input file: sample_data\synthetic_survey_points.csv
+Total survey records: 15
+Total QA issues: 10
+
+QA thresholds:
+- Easting range: 472000.0 to 473500.0
+- Northing range: 1712000.0 to 1713500.0
+- Elevation range: 1000.0 to 1300.0 m
+- Maximum horizontal accuracy value: 0.1 m
+- Maximum vertical accuracy value: 0.2 m
+
+Issue counts by type:
+- Duplicate Point ID: 2
+- Easting Outside Expected Range: 1
+- Elevation Outside Expected Range: 1
+- Horizontal Accuracy Exceeds Threshold: 1
+- Missing Required Value: 3
+- Northing Outside Expected Range: 1
+- Vertical Accuracy Exceeds Threshold: 1
